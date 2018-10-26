@@ -1,0 +1,9 @@
+h1{
+float: left;
+align-items: center;
+color: green
+}
+
+textarea {
+ resize: none;
+}

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="CSS/style.css">
+  <title>form</title>
+</head>
+
+<body>
+  <header>
+    <nav>
+      <h1>DEVENEZ AMBASSADEUR DE L'ENVIRONNEMENT DANS VOTRE VILLE</h1><br>
+    </nav>
+    <section>
+      <form class="form" action="index.html" method="post"><br>
+        <p><br>
+          <label for="prenom">Prénom: <sup>*</sup></label><br>
+          <input type="text" name="prenom" value="" id="prenom" placeholder="ex:ines" required>
+        </p>
+        <label for="nom">Nom: <sup>*</sup></label><br>
+        <input type="text" name="non" value="" id="non" placeholder="ex:br" required>
+        <p>
+          <label for="mail">Adresse e-mail:<sup>*</sup></label> <br>
+          <input type="text" name="mail" value="" id="mail" placeholder="ex:ines.br@gmail.com">
+          <label for=""></label>
+        </p>
+        <p>
+          <label for="date de naissance">Date de naissance :<sup>*</sup></label><br>
+          <input type="date" name="date de naissance" value="" id="date de naissance" placeholder="ex:13/06/1995">
+        </p>
+        <p>
+          <label for="message">Laissez-nous un message de motivation <sup>*</sup></label><br>
+          <textarea name="message" rows="8" cols="80"></textarea>
+        </p>
+        <p>
+          <label for="preference">Quel secteur vous convient :<sup>*</sup></label><br>
+          <select class="" name="user choice" id="preference">
+            <option value="selec option" disabled selected>sélectionnez une option</option>
+
+            <optgroup label="Sensibilisez">
+              <option value="Sensibilation chez les plus petits 3/8 ans">Sensibilisation chez les plus petits 3/8 ans</option>
+              <option value="Sensibililation chez les moyen 9/18 ans">Sensibilisation chez les moyen 9/18 ans</option>
+              <option value="Sensibilation chez les grand 18/25 ans">Sensibilisation chez les grand 18/25 ans</option>
+              <option value="Sensibilation en entreprise">Sensibilisation en entreprise</option>
+              <option value="Sensibilation porte à porte">Sensibilisation porte à porte</option>
+            </optgroup>
+            <optgroup label="sur le terrain">
+              <option value="operationt">ramassage de déchet dans les parcs</option>
+              <option value="operationtdeux">ramassage de déchet en mer</option>
+              <option value="operationttrois">ramassage de déchet voie public </option>
+          </select>
+          <p>
+          Vous êtes plutôt...<br>
+
+        <input type="checkbox" name="le matin" value="" checked required>
+        <label for="le matin">Du matin</label> <br>
+
+        <input type="checkbox" name="l aprem" value=""required>
+        <label for="l aprem">de l'aprèm</label><br>
+
+        <input type="checkbox" name="week-end" value=""required>
+        <label for="week-end">Du week-end</label>
+
+      </p>
+
+      <p>Avez-vous  un emploie <br>
+        <input type="radio" name="oui" value=""required>
+        <label for="oui">Oui</label>
+
+        <input type="radio" name="non" value="" checked required>
+        <label for="non">Non</label>
+        <p>
+          <input type="submit" name="Envoyer" value="Envoyer">
+        </p>
+      </p>
+        </p>
+      </form>
+    </section>
+
+  </header>
+
+</body>
+
+</html>
